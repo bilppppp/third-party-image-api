@@ -85,6 +85,11 @@ Do not put API keys directly in shell commands or provider JSON files. Put keys 
 
 `alapi-gpt-image-2.json` is an example profile for an ALAPI-style relay API that uses query-parameter authentication and nested image URL responses. It contains no real token.
 
+## Provider Links
+
+- Tuzi API: https://api.tu-zi.com/register?aff=qjG3
+- ALAPI: https://www.alapi.cn/aff/itpgq3
+
 ## Development
 
 Run checks:
