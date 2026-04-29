@@ -1,0 +1,6 @@
+interface:
+  display_name: "第三方图片 API 接入"
+  short_description: "从官方文档或调用示例接入任意第三方图片生成与编辑接口配置"
+  default_prompt: "Use $third-party-image-api to connect an official third-party image API from docs or examples."
+policy:
+  allow_implicit_invocation: true

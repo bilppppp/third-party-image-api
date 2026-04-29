@@ -1,0 +1,29 @@
+{
+  "name": "alapi-gpt-image-2",
+  "version": 1,
+  "auth": {
+    "type": "query",
+    "env": "ALAPI_TOKEN",
+    "query": "token"
+  },
+  "operations": {
+    "generate": {
+      "method": "POST",
+      "url": "https://v3.alapi.cn/api/ai/images/generations",
+      "request": {
+        "type": "json",
+        "body": {
+          "model": "gpt-image-2",
+          "prompt": "{{prompt}}",
+          "n": "1",
+          "size": "{{size}}",
+          "resolution": "1k"
+        }
+      },
+      "response": {
+        "type": "imageUrl",
+        "path": "data.data.0.url"
+      }
+    }
+  }
+}
